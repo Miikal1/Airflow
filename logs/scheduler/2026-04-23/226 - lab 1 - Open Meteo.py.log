@@ -9644,3 +9644,91 @@ snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect t
 [2026-04-23T22:54:40.564+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:54:40.564+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2026-04-23T22:54:40.584+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:54:40.584+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
 [2026-04-23T22:54:40.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.478 seconds
+[2026-04-23T22:55:11.492+0000] {processor.py:186} INFO - Started process (PID=79458) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:55:11.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:55:11.495+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:11.494+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:55:11.535+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:11.535+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:55:11.537+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:11.537+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:55:11.538+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:11.538+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:55:11.539+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:11.539+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:55:12.045+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:55:12.145+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:12.145+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:55:12.164+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:12.164+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:55:12.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.695 seconds
+[2026-04-23T22:55:42.484+0000] {processor.py:186} INFO - Started process (PID=79515) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:55:42.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:55:42.487+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:42.486+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:55:42.525+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:42.525+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:55:42.527+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:42.527+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:55:42.528+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:42.528+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:55:42.529+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:42.528+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:55:43.061+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:55:43.159+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:43.159+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:55:43.181+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:55:43.181+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:55:43.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.739 seconds
+[2026-04-23T22:56:13.580+0000] {processor.py:186} INFO - Started process (PID=79571) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:56:13.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:56:13.583+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:13.582+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:56:13.622+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:13.622+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:56:13.623+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:13.623+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:56:13.624+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:13.624+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:56:13.625+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:13.625+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:56:14.179+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:56:14.280+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:14.280+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:56:14.303+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:14.303+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:56:14.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.749 seconds
+[2026-04-23T22:56:44.848+0000] {processor.py:186} INFO - Started process (PID=79628) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:56:44.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:56:44.850+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:44.850+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:56:44.888+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:44.888+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:56:44.889+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:44.889+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:56:44.890+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:44.890+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:56:44.890+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:44.890+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:56:45.554+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:56:45.658+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:45.658+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:56:45.679+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:56:45.679+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:56:45.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.866 seconds
+[2026-04-23T22:57:15.813+0000] {processor.py:186} INFO - Started process (PID=79686) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:57:15.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:57:15.815+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:15.815+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:57:15.857+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:15.857+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:57:15.858+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:15.858+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:57:15.860+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:15.859+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:57:15.860+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:15.860+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:57:16.368+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:57:16.479+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:16.479+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:57:16.500+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:16.500+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:57:16.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.714 seconds
+[2026-04-23T22:57:46.836+0000] {processor.py:186} INFO - Started process (PID=79743) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:57:46.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:57:46.839+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:46.839+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:57:46.880+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:46.879+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:57:46.881+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:46.881+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:57:46.882+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:46.882+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:57:46.883+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:46.882+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:57:47.176+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:57:47.270+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:47.269+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:57:47.290+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:57:47.289+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:57:47.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.476 seconds
+[2026-04-23T22:58:18.233+0000] {processor.py:186} INFO - Started process (PID=79810) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:58:18.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:58:18.235+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:18.235+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:58:18.274+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:18.274+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:58:18.275+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:18.275+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:58:18.276+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:18.276+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:58:18.277+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:18.277+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:58:18.972+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:58:19.070+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:19.070+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:58:19.091+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:19.091+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:58:19.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.882 seconds
+[2026-04-23T22:58:49.413+0000] {processor.py:186} INFO - Started process (PID=79867) to work on /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:58:49.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - Open Meteo.py for tasks to queue
+[2026-04-23T22:58:49.415+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:49.415+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:58:49.453+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:49.453+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:58:49.454+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:49.454+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:58:49.456+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:49.456+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:58:49.456+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:49.456+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:58:50.049+0000] {processor.py:925} INFO - DAG(s) 'Open_Meteo' retrieved from /opt/airflow/dags/226 - lab 1 - Open Meteo.py
+[2026-04-23T22:58:50.146+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:50.146+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:58:50.169+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:50.169+0000] {dag.py:4156} INFO - Setting next_dagrun for Open_Meteo to 2026-04-22 07:00:00+00:00, run_after=2026-04-23 07:00:00+00:00
+[2026-04-23T22:58:50.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - Open Meteo.py took 0.779 seconds
