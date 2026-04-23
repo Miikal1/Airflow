@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: average_temps
+    description: "Average max and min temperatures of both cities"
+    columns:
+      - name: city
+        description: "Name of city"
+        data_tests:
+          - unique
+          - not_null
+  - name: weather_code_distribution
+    description: "Distribution of weather codes across both cities"
+    columns:
+      - name: city
+        description: "Name of city"
+        data_tests:
+          - not_null
+  - name: percent_rainy_days_monthly
+    description: "Total amount and percentage of days it rained in a month"
+    columns:
+      - name: city
+        description: "Name of city"
+        data_tests:
+          - not_null
+  - name: weather_weekly_precipitation
+    description: "Total amount of precipitation weekly by city"
+    columns:
+      - name: city
+        description: "Name of city"
+        data_tests:
+          - not_null

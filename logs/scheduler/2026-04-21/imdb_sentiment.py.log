@@ -1,0 +1,7 @@
+[2026-04-21T01:47:35.855+0000] {processor.py:186} INFO - Started process (PID=6232) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-21T01:47:35.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-21T01:47:35.860+0000] {logging_mixin.py:190} INFO - [2026-04-21T01:47:35.860+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-21T01:47:39.444+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-21T01:47:39.480+0000] {logging_mixin.py:190} INFO - [2026-04-21T01:47:39.479+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-21T01:47:39.505+0000] {logging_mixin.py:190} INFO - [2026-04-21T01:47:39.504+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-21T01:47:39.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 3.761 seconds

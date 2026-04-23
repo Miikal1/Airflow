@@ -1,0 +1,26 @@
+sources:
+  - name: raw
+    database: USER_DB_CAT
+    schema: raw
+    description: "Schema which stores raw tables (ETL)"
+    tables:
+      - name: weather_data_lab1
+        identifier: weather_data_lab1
+        description: "Weather data including latitude, longitude, date, city, temp_max, temp_min, precipitation, and weather_code"
+  - name: analytics
+    database: USER_DB_CAT
+    schema: analytics
+    description: "Schema with stores analytics tables (ELT)"
+    tables:
+      - name: average_temps
+        identifier: average_temps
+        description: "Average max and min temperatures of both cities"
+      - name: weather_code_distribution
+        identifier: weather_code_distribution
+        description: "Distribution of weather codes across both cities"
+      - name: percent_rainy_days_monthly
+        identifier: percent_rainy_days_monthly
+        description: "Total amount and percentage of days it rained in a month"
+      - name: weather_weekly_precipitation
+        identifier: weather_weekly_precipitation
+        description: "Total amount of precipitation weekly by city"

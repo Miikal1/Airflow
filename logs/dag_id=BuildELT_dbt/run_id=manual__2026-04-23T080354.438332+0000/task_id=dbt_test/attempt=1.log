@@ -1,0 +1,43 @@
+[2026-04-23T08:04:16.606+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-23T08:04:16.624+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test manual__2026-04-23T08:03:54.438332+00:00 [queued]>
+[2026-04-23T08:04:16.632+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test manual__2026-04-23T08:03:54.438332+00:00 [queued]>
+[2026-04-23T08:04:16.633+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-23T08:04:16.646+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_test> on 2026-04-23 08:03:54.438332+00:00
+[2026-04-23T08:04:16.655+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_test', 'manual__2026-04-23T08:03:54.438332+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp07gl0q1a']
+[2026-04-23T08:04:16.658+0000] {standard_task_runner.py:105} INFO - Job 73: Subtask dbt_test
+[2026-04-23T08:04:16.660+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=51493) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-23T08:04:16.661+0000] {standard_task_runner.py:72} INFO - Started process 51494 to run task
+[2026-04-23T08:04:16.705+0000] {task_command.py:467} INFO - Running <TaskInstance: BuildELT_dbt.dbt_test manual__2026-04-23T08:03:54.438332+00:00 [running]> on host aa30302fbfc5
+[2026-04-23T08:04:16.790+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2026-04-23T08:03:54.438332+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-23T08:03:54.438332+00:00'
+[2026-04-23T08:04:16.791+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-23T08:04:16.807+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-23T08:04:16.809+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt test --profiles-dir /opt/***/dbt --project-dir /opt/***/dbt']
+[2026-04-23T08:04:16.823+0000] {subprocess.py:86} INFO - Output:
+[2026-04-23T08:04:18.810+0000] {subprocess.py:93} INFO - [0m08:04:18  Running with dbt=1.8.7
+[2026-04-23T08:04:19.849+0000] {subprocess.py:93} INFO - [0m08:04:19  Registered adapter: snowflake=1.8.1
+[2026-04-23T08:04:20.401+0000] {subprocess.py:93} INFO - [0m08:04:20  Found 5 models, 5 data tests, 4 snapshots, 5 sources, 454 macros
+[2026-04-23T08:04:20.404+0000] {subprocess.py:93} INFO - [0m08:04:20
+[2026-04-23T08:04:23.616+0000] {subprocess.py:93} INFO - [0m08:04:23  Concurrency: 1 threads (target='dev')
+[2026-04-23T08:04:23.616+0000] {subprocess.py:93} INFO - [0m08:04:23
+[2026-04-23T08:04:23.636+0000] {subprocess.py:93} INFO - [0m08:04:23  1 of 5 START test not_null_average_temps_city .................................. [RUN]
+[2026-04-23T08:04:25.232+0000] {subprocess.py:93} INFO - [0m08:04:25  1 of 5 PASS not_null_average_temps_city ........................................ [[32mPASS[0m in 1.59s]
+[2026-04-23T08:04:25.235+0000] {subprocess.py:93} INFO - [0m08:04:25  2 of 5 START test not_null_percent_rainy_days_monthly_city ..................... [RUN]
+[2026-04-23T08:04:27.643+0000] {subprocess.py:93} INFO - [0m08:04:27  2 of 5 PASS not_null_percent_rainy_days_monthly_city ........................... [[32mPASS[0m in 2.41s]
+[2026-04-23T08:04:27.645+0000] {subprocess.py:93} INFO - [0m08:04:27  3 of 5 START test not_null_weather_code_distribution_city ...................... [RUN]
+[2026-04-23T08:04:28.797+0000] {subprocess.py:93} INFO - [0m08:04:28  3 of 5 PASS not_null_weather_code_distribution_city ............................ [[32mPASS[0m in 1.15s]
+[2026-04-23T08:04:28.800+0000] {subprocess.py:93} INFO - [0m08:04:28  4 of 5 START test not_null_weather_weekly_precipitation_city ................... [RUN]
+[2026-04-23T08:04:27.911+0000] {subprocess.py:93} INFO - [0m08:04:27  4 of 5 PASS not_null_weather_weekly_precipitation_city ......................... [[32mPASS[0m in -0.89s]
+[2026-04-23T08:04:27.913+0000] {subprocess.py:93} INFO - [0m08:04:27  5 of 5 START test unique_average_temps_city .................................... [RUN]
+[2026-04-23T08:04:29.009+0000] {subprocess.py:93} INFO - [0m08:04:29  5 of 5 PASS unique_average_temps_city .......................................... [[32mPASS[0m in 1.09s]
+[2026-04-23T08:04:29.013+0000] {subprocess.py:93} INFO - [0m08:04:29
+[2026-04-23T08:04:29.013+0000] {subprocess.py:93} INFO - [0m08:04:29  Finished running 5 data tests in 0 hours 0 minutes and 8.61 seconds (8.61s).
+[2026-04-23T08:04:29.065+0000] {subprocess.py:93} INFO - [0m08:04:29
+[2026-04-23T08:04:29.065+0000] {subprocess.py:93} INFO - [0m08:04:29  [32mCompleted successfully[0m
+[2026-04-23T08:04:29.066+0000] {subprocess.py:93} INFO - [0m08:04:29
+[2026-04-23T08:04:29.066+0000] {subprocess.py:93} INFO - [0m08:04:29  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[2026-04-23T08:04:29.800+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-23T08:04:29.841+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-23T08:04:29.841+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_test, run_id=manual__2026-04-23T08:03:54.438332+00:00, execution_date=20260423T080354, start_date=20260423T080416, end_date=20260423T080429
+[2026-04-23T08:04:29.861+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-04-23T08:04:29.881+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-23T08:04:29.883+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

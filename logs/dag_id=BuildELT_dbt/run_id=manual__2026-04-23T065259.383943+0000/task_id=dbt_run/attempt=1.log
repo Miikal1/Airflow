@@ -1,0 +1,115 @@
+[2026-04-23T06:53:00.609+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-04-23T06:53:00.628+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-23T06:52:59.383943+00:00 [queued]>
+[2026-04-23T06:53:00.638+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-23T06:52:59.383943+00:00 [queued]>
+[2026-04-23T06:53:00.639+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2026-04-23T06:53:00.653+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-23 06:52:59.383943+00:00
+[2026-04-23T06:53:00.664+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'manual__2026-04-23T06:52:59.383943+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpxfj1osg1']
+[2026-04-23T06:53:00.667+0000] {standard_task_runner.py:105} INFO - Job 53: Subtask dbt_run
+[2026-04-23T06:53:00.667+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=43031) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-23T06:53:00.668+0000] {standard_task_runner.py:72} INFO - Started process 43032 to run task
+[2026-04-23T06:53:00.718+0000] {task_command.py:467} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-23T06:52:59.383943+00:00 [running]> on host aa30302fbfc5
+[2026-04-23T06:53:00.814+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-04-23T06:52:59.383943+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-23T06:52:59.383943+00:00'
+[2026-04-23T06:53:00.815+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-04-23T06:53:00.833+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-23T06:53:00.835+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/dbt --project-dir /opt/***/dbt']
+[2026-04-23T06:53:00.849+0000] {subprocess.py:86} INFO - Output:
+[2026-04-23T06:53:02.770+0000] {subprocess.py:93} INFO - [0m06:53:02  Running with dbt=1.8.7
+[2026-04-23T06:53:03.765+0000] {subprocess.py:93} INFO - [0m06:53:03  Registered adapter: snowflake=1.8.1
+[2026-04-23T06:53:04.651+0000] {subprocess.py:93} INFO - [0m06:53:04  Found 5 models, 5 data tests, 4 snapshots, 5 sources, 454 macros
+[2026-04-23T06:53:04.654+0000] {subprocess.py:93} INFO - [0m06:53:04
+[2026-04-23T06:53:06.678+0000] {subprocess.py:93} INFO - [0m06:53:06  Concurrency: 1 threads (target='dev')
+[2026-04-23T06:53:06.679+0000] {subprocess.py:93} INFO - [0m06:53:06
+[2026-04-23T06:53:06.709+0000] {subprocess.py:93} INFO - [0m06:53:06  1 of 4 START sql table model analytics.weather_weekly_precipitation ............ [RUN]
+[2026-04-23T06:53:06.718+0000] {subprocess.py:93} INFO - [0m06:53:06  1 of 4 ERROR creating sql table model analytics.weather_weekly_precipitation ... [[31mERROR[0m in 0.01s]
+[2026-04-23T06:53:06.720+0000] {subprocess.py:93} INFO - [0m06:53:06  2 of 4 START sql table model analytics.average_temps ........................... [RUN]
+[2026-04-23T06:53:09.331+0000] {subprocess.py:93} INFO - [0m06:53:09  2 of 4 OK created sql table model analytics.average_temps ...................... [[32mSUCCESS 1[0m in 2.61s]
+[2026-04-23T06:53:09.334+0000] {subprocess.py:93} INFO - [0m06:53:09  3 of 4 START sql table model analytics.percent_rainy_days_monthly .............. [RUN]
+[2026-04-23T06:53:13.893+0000] {subprocess.py:93} INFO - [0m06:53:13  3 of 4 OK created sql table model analytics.percent_rainy_days_monthly ......... [[32mSUCCESS 1[0m in 4.56s]
+[2026-04-23T06:53:13.895+0000] {subprocess.py:93} INFO - [0m06:53:13  4 of 4 START sql table model analytics.weather_code_distribution ............... [RUN]
+[2026-04-23T06:53:16.297+0000] {subprocess.py:93} INFO - [0m06:53:16  4 of 4 OK created sql table model analytics.weather_code_distribution .......... [[32mSUCCESS 1[0m in 2.40s]
+[2026-04-23T06:53:16.301+0000] {subprocess.py:93} INFO - [0m06:53:16
+[2026-04-23T06:53:16.302+0000] {subprocess.py:93} INFO - [0m06:53:16  Finished running 4 table models in 0 hours 0 minutes and 11.65 seconds (11.65s).
+[2026-04-23T06:53:16.354+0000] {subprocess.py:93} INFO - [0m06:53:16
+[2026-04-23T06:53:16.355+0000] {subprocess.py:93} INFO - [0m06:53:16  [31mCompleted with 1 error and 0 warnings:[0m
+[2026-04-23T06:53:16.355+0000] {subprocess.py:93} INFO - [0m06:53:16
+[2026-04-23T06:53:16.356+0000] {subprocess.py:93} INFO - [0m06:53:16    Compilation Error in model weather_weekly_precipitation (models/analytics/weather_weekly_precipitation.sql)
+[2026-04-23T06:53:16.356+0000] {subprocess.py:93} INFO -   dbt was unable to infer all dependencies for the model "weather_weekly_precipitation".
+[2026-04-23T06:53:16.357+0000] {subprocess.py:93} INFO -   This typically happens when ref() is placed within a conditional block.
+[2026-04-23T06:53:16.357+0000] {subprocess.py:93} INFO - 
+[2026-04-23T06:53:16.357+0000] {subprocess.py:93} INFO -   To fix this, add the following hint to the top of the model "weather_weekly_precipitation":
+[2026-04-23T06:53:16.358+0000] {subprocess.py:93} INFO - 
+[2026-04-23T06:53:16.358+0000] {subprocess.py:93} INFO -   -- depends_on: {{ ref('weather_data_lab1') }}
+[2026-04-23T06:53:16.358+0000] {subprocess.py:93} INFO - [0m06:53:16
+[2026-04-23T06:53:16.359+0000] {subprocess.py:93} INFO - [0m06:53:16  Done. PASS=3 WARN=0 ERROR=1 SKIP=0 TOTAL=4
+[2026-04-23T06:53:17.192+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-04-23T06:53:17.204+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-04-23T06:53:17.208+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=BuildELT_dbt, task_id=dbt_run, run_id=manual__2026-04-23T06:52:59.383943+00:00, execution_date=20260423T065259, start_date=20260423T065300, end_date=20260423T065317
+[2026-04-23T06:53:17.222+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-04-23T06:53:17.223+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 53 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 43032)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-04-23T06:53:17.250+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-04-23T06:53:17.271+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-23T06:53:17.275+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
