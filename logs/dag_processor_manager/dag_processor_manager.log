@@ -22862,3 +22862,231 @@ File Path                                                 PID  Runtime      # DA
 /opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.14s           2026-04-23T22:39:32                      12
 /opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.12s           2026-04-23T22:39:28                      11
 ================================================================================
+[2026-04-23T22:40:20.372+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.72s           2026-04-23T22:39:51                      11
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.74s           2026-04-23T22:39:57                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.71s           2026-04-23T22:39:58                      38
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.67s           2026-04-23T22:40:06                      18
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.19s           2026-04-23T22:40:02                      12
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.15s           2026-04-23T22:40:01                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.14s           2026-04-23T22:39:58                      11
+================================================================================
+[2026-04-23T22:40:50.594+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.73s           2026-04-23T22:40:23                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.88s           2026-04-23T22:40:30                      38
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.76s           2026-04-23T22:40:28                      37
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.54s           2026-04-23T22:40:37                      41
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.24s           2026-04-23T22:40:38                      35
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.13s           2026-04-23T22:40:31                      12
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.13s           2026-04-23T22:40:32                      12
+================================================================================
+[2026-04-23T22:41:20.892+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.87s           2026-04-23T22:40:55                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.99s           2026-04-23T22:41:01                      38
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.77s           2026-04-23T22:41:08                      41
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.55s           2026-04-23T22:40:59                      37
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.14s           2026-04-23T22:41:02                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.13s           2026-04-23T22:41:08                      13
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.13s           2026-04-23T22:41:03                      12
+================================================================================
+[2026-04-23T22:41:51.013+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.72s           2026-04-23T22:41:27                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.77s           2026-04-23T22:41:32                      38
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.57s           2026-04-23T22:41:30                      37
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.55s           2026-04-23T22:41:39                      41
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.15s           2026-04-23T22:41:32                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.15s           2026-04-23T22:41:39                      13
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.12s           2026-04-23T22:41:33                      12
+================================================================================
+[2026-04-23T22:42:21.032+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.69s           2026-04-23T22:41:59                      11
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  1.45s           2026-04-23T22:42:11                      41
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.83s           2026-04-23T22:42:01                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.83s           2026-04-23T22:42:04                      38
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.14s           2026-04-23T22:42:09                      13
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.13s           2026-04-23T22:42:02                      12
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.13s           2026-04-23T22:42:03                      12
+================================================================================
+[2026-04-23T22:42:23.483+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-04-23T22:42:23.557+0000] {manager.py:835} INFO - There are 7 files in /opt/airflow/dags
+[2026-04-23T22:42:51.260+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.67s           2026-04-23T22:42:31                      11
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  1.14s           2026-04-23T22:42:32                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  1.03s           2026-04-23T22:42:36                      38
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.71s           2026-04-23T22:42:42                      41
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.14s           2026-04-23T22:42:33                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.13s           2026-04-23T22:42:40                      13
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.13s           2026-04-23T22:42:32                      12
+================================================================================
+[2026-04-23T22:43:21.210+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.72s           2026-04-23T22:43:03                      11
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.88s           2026-04-23T22:43:14                      41
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.87s           2026-04-23T22:43:04                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.85s           2026-04-23T22:43:06                      38
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.16s           2026-04-23T22:43:03                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.15s           2026-04-23T22:43:10                      13
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.13s           2026-04-23T22:43:04                      12
+================================================================================
+[2026-04-23T22:43:51.518+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.74s           2026-04-23T22:43:36                      11
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.87s           2026-04-23T22:43:35                      15
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.84s           2026-04-23T22:43:45                      41
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.80s           2026-04-23T22:43:37                      38
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.15s           2026-04-23T22:43:33                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.14s           2026-04-23T22:43:40                      13
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.13s           2026-04-23T22:43:34                      12
+================================================================================
+[2026-04-23T22:44:21.662+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.76s           2026-04-23T22:44:08                      11
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.83s           2026-04-23T22:44:06                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.75s           2026-04-23T22:44:09                      38
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.67s           2026-04-23T22:44:16                      41
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.16s           2026-04-23T22:44:04                      12
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.14s           2026-04-23T22:44:03                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.14s           2026-04-23T22:44:11                      13
+================================================================================
+[2026-04-23T22:44:52.293+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.74s           2026-04-23T22:44:40                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.98s           2026-04-23T22:44:40                      38
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.94s           2026-04-23T22:44:48                      41
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.80s           2026-04-23T22:44:38                      37
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.15s           2026-04-23T22:44:41                      13
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.14s           2026-04-23T22:44:34                      12
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.14s           2026-04-23T22:44:35                      12
+================================================================================
+[2026-04-23T22:45:22.926+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.72s           2026-04-23T22:45:12                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  1.04s           2026-04-23T22:45:11                      38
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.99s           2026-04-23T22:45:09                      37
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.63s           2026-04-23T22:45:19                      41
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.15s           2026-04-23T22:45:04                      12
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.14s           2026-04-23T22:45:05                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.13s           2026-04-23T22:45:11                      13
+================================================================================
+[2026-04-23T22:45:53.571+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.82s           2026-04-23T22:45:44                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.79s           2026-04-23T22:45:42                      38
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.72s           2026-04-23T22:45:40                      37
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.71s           2026-04-23T22:45:49                      41
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.15s           2026-04-23T22:45:35                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.15s           2026-04-23T22:45:42                      13
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.14s           2026-04-23T22:45:36                      12
+================================================================================
+[2026-04-23T22:46:24.052+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.92s           2026-04-23T22:46:16                      11
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  1.46s           2026-04-23T22:46:21                      41
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.97s           2026-04-23T22:46:11                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.84s           2026-04-23T22:46:13                      38
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.15s           2026-04-23T22:46:12                      13
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.14s           2026-04-23T22:46:05                      12
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.14s           2026-04-23T22:46:06                      12
+================================================================================
+[2026-04-23T22:46:54.405+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.79s           2026-04-23T22:46:48                      11
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.87s           2026-04-23T22:46:45                      38
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.77s           2026-04-23T22:46:43                      37
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.67s           2026-04-23T22:46:52                      41
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.15s           2026-04-23T22:46:37                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.14s           2026-04-23T22:46:43                      13
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.13s           2026-04-23T22:46:36                      12
+================================================================================
+[2026-04-23T22:47:23.683+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2026-04-23T22:47:23.762+0000] {manager.py:835} INFO - There are 7 files in /opt/airflow/dags
+[2026-04-23T22:47:24.792+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.70s           2026-04-23T22:47:20                      11
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  1.40s           2026-04-23T22:47:15                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.73s           2026-04-23T22:47:15                      38
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.72s           2026-04-23T22:47:23                      41
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.15s           2026-04-23T22:47:07                      12
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.13s           2026-04-23T22:47:13                      13
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.13s           2026-04-23T22:47:06                      12
+================================================================================
+[2026-04-23T22:47:55.188+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/imdb_sentiment.py                                              1           0  1.79s           2026-04-23T22:47:53                      11
+/opt/airflow/dags/226 - lab 1 - Open Meteo.py                                    1           0  0.80s           2026-04-23T22:47:54                      41
+/opt/airflow/dags/226 - Homework 5 - Michael Jasper.py                           1           0  0.74s           2026-04-23T22:47:46                      37
+/opt/airflow/dags/226 - Homework 6 - Michael Jasper.py                           1           0  0.68s           2026-04-23T22:47:46                      38
+/opt/airflow/dags/build_elt_with_dbt.py                                          1           0  0.15s           2026-04-23T22:47:44                      13
+/opt/airflow/dags/226 - lab 1 - ML Forcast.py                                    1           0  0.13s           2026-04-23T22:47:38                      12
+/opt/airflow/dags/Hello_World_Docker.py                                          1           0  0.13s           2026-04-23T22:47:37                      12
+================================================================================
