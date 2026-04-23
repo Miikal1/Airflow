@@ -5941,3 +5941,24 @@
 [2026-04-23T22:51:10.108+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:10.108+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2026-04-23T22:51:10.130+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:10.129+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld_docker to 2026-04-22 02:00:00+00:00, run_after=2026-04-23 02:00:00+00:00
 [2026-04-23T22:51:10.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_World_Docker.py took 0.093 seconds
+[2026-04-23T22:51:40.381+0000] {processor.py:186} INFO - Started process (PID=79084) to work on /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:51:40.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello_World_Docker.py for tasks to queue
+[2026-04-23T22:51:40.384+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:40.383+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:51:40.405+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld_docker' retrieved from /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:51:40.432+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:40.432+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:51:40.458+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:40.458+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld_docker to 2026-04-22 02:00:00+00:00, run_after=2026-04-23 02:00:00+00:00
+[2026-04-23T22:51:40.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_World_Docker.py took 0.103 seconds
+[2026-04-23T22:52:11.035+0000] {processor.py:186} INFO - Started process (PID=79141) to work on /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:52:11.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello_World_Docker.py for tasks to queue
+[2026-04-23T22:52:11.037+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:11.037+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:52:11.056+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld_docker' retrieved from /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:52:11.081+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:11.081+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:52:11.103+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:11.103+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld_docker to 2026-04-22 02:00:00+00:00, run_after=2026-04-23 02:00:00+00:00
+[2026-04-23T22:52:11.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_World_Docker.py took 0.101 seconds
+[2026-04-23T22:52:41.582+0000] {processor.py:186} INFO - Started process (PID=79196) to work on /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:52:41.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Hello_World_Docker.py for tasks to queue
+[2026-04-23T22:52:41.584+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:41.584+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:52:41.606+0000] {processor.py:925} INFO - DAG(s) 'HelloWorld_docker' retrieved from /opt/airflow/dags/Hello_World_Docker.py
+[2026-04-23T22:52:41.641+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:41.641+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:52:41.670+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:41.670+0000] {dag.py:4156} INFO - Setting next_dagrun for HelloWorld_docker to 2026-04-22 02:00:00+00:00, run_after=2026-04-23 02:00:00+00:00
+[2026-04-23T22:52:41.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Hello_World_Docker.py took 0.115 seconds

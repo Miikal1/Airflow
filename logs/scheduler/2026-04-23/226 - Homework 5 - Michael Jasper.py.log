@@ -9302,3 +9302,25 @@ snowflake.connector.errors.OperationalError: 250001: 250001: Could not connect t
 [2026-04-23T22:51:25.387+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:25.387+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2026-04-23T22:51:25.407+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:25.407+0000] {dag.py:4156} INFO - Setting next_dagrun for KyotoWeather_v1 to 2026-04-22 07:30:00+00:00, run_after=2026-04-23 07:30:00+00:00
 [2026-04-23T22:51:25.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py took 1.094 seconds
+[2026-04-23T22:51:55.667+0000] {processor.py:186} INFO - Started process (PID=79108) to work on /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py
+[2026-04-23T22:51:55.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py for tasks to queue
+[2026-04-23T22:51:55.670+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:55.669+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py
+[2026-04-23T22:51:55.703+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:55.703+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:51:55.705+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:55.704+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:51:55.706+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:55.706+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:51:55.706+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:55.706+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:51:56.228+0000] {processor.py:925} INFO - DAG(s) 'KyotoWeather_v1' retrieved from /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py
+[2026-04-23T22:51:56.328+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:56.327+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:51:56.348+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:51:56.348+0000] {dag.py:4156} INFO - Setting next_dagrun for KyotoWeather_v1 to 2026-04-22 07:30:00+00:00, run_after=2026-04-23 07:30:00+00:00
+[2026-04-23T22:51:56.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py took 0.704 seconds
+[2026-04-23T22:52:27.383+0000] {processor.py:186} INFO - Started process (PID=79165) to work on /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py
+[2026-04-23T22:52:27.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py for tasks to queue
+[2026-04-23T22:52:27.385+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:27.385+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py
+[2026-04-23T22:52:27.420+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:27.420+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-23T22:52:27.421+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:27.421+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.2, Python Version: 3.12.5, Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-04-23T22:52:27.422+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:27.422+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2026-04-23T22:52:27.423+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:27.423+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-23T22:52:28.184+0000] {processor.py:925} INFO - DAG(s) 'KyotoWeather_v1' retrieved from /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py
+[2026-04-23T22:52:28.201+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:28.200+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:52:28.223+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:52:28.223+0000] {dag.py:4156} INFO - Setting next_dagrun for KyotoWeather_v1 to 2026-04-22 07:30:00+00:00, run_after=2026-04-23 07:30:00+00:00
+[2026-04-23T22:52:28.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - Homework 5 - Michael Jasper.py took 0.863 seconds
