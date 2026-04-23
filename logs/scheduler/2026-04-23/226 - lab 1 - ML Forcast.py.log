@@ -6018,3 +6018,10 @@
 [2026-04-23T22:58:47.428+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:47.428+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2026-04-23T22:58:47.451+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:58:47.451+0000] {dag.py:4156} INFO - Setting next_dagrun for ML_forecast to 2026-04-22 07:30:00+00:00, run_after=2026-04-23 07:30:00+00:00
 [2026-04-23T22:58:47.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - ML Forcast.py took 0.096 seconds
+[2026-04-23T22:59:17.655+0000] {processor.py:186} INFO - Started process (PID=79917) to work on /opt/airflow/dags/226 - lab 1 - ML Forcast.py
+[2026-04-23T22:59:17.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/226 - lab 1 - ML Forcast.py for tasks to queue
+[2026-04-23T22:59:17.657+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:59:17.657+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/226 - lab 1 - ML Forcast.py
+[2026-04-23T22:59:17.677+0000] {processor.py:925} INFO - DAG(s) 'ML_forecast' retrieved from /opt/airflow/dags/226 - lab 1 - ML Forcast.py
+[2026-04-23T22:59:17.702+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:59:17.702+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-23T22:59:17.724+0000] {logging_mixin.py:190} INFO - [2026-04-23T22:59:17.724+0000] {dag.py:4156} INFO - Setting next_dagrun for ML_forecast to 2026-04-22 07:30:00+00:00, run_after=2026-04-23 07:30:00+00:00
+[2026-04-23T22:59:17.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/226 - lab 1 - ML Forcast.py took 0.093 seconds
