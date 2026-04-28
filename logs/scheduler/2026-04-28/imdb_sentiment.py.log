@@ -1,0 +1,238 @@
+[2026-04-28T02:45:32.502+0000] {processor.py:186} INFO - Started process (PID=4303) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:45:32.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:45:32.507+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:45:32.506+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:45:35.103+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:45:35.122+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:45:35.121+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:45:35.137+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:45:35.137+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:45:35.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 2.663 seconds
+[2026-04-28T02:46:06.069+0000] {processor.py:186} INFO - Started process (PID=4378) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:46:06.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:46:06.072+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:46:06.072+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:46:07.946+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:46:07.967+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:46:07.966+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:46:07.981+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:46:07.981+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:46:07.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.937 seconds
+[2026-04-28T02:46:38.537+0000] {processor.py:186} INFO - Started process (PID=4461) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:46:38.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:46:38.540+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:46:38.540+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:46:37.945+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:46:37.963+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:46:37.963+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:46:37.976+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:46:37.976+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:46:37.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.784 seconds
+[2026-04-28T02:47:08.886+0000] {processor.py:186} INFO - Started process (PID=4544) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:47:08.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:47:08.889+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:47:08.889+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:47:10.572+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:47:10.589+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:47:10.589+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:47:10.602+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:47:10.602+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:47:10.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.739 seconds
+[2026-04-28T02:47:40.953+0000] {processor.py:186} INFO - Started process (PID=4622) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:47:40.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:47:40.957+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:47:40.957+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:47:42.604+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:47:42.621+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:47:42.621+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:47:42.635+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:47:42.635+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:47:42.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.704 seconds
+[2026-04-28T02:48:13.192+0000] {processor.py:186} INFO - Started process (PID=4700) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:48:13.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:48:13.196+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:48:13.195+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:48:14.869+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:48:14.887+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:48:14.886+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:48:14.900+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:48:14.900+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:48:14.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.732 seconds
+[2026-04-28T02:49:07.002+0000] {processor.py:186} INFO - Started process (PID=4783) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:49:07.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:49:07.006+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:49:07.005+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:49:08.532+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:49:08.548+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:49:08.547+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:49:08.560+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:49:08.560+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:49:08.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.587 seconds
+[2026-04-28T02:49:38.785+0000] {processor.py:186} INFO - Started process (PID=4857) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:49:38.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:49:38.787+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:49:38.787+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:49:40.368+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:49:40.385+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:49:40.384+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:49:40.397+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:49:40.397+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:49:40.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.645 seconds
+[2026-04-28T02:50:10.583+0000] {processor.py:186} INFO - Started process (PID=4930) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:50:10.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:50:10.585+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:50:10.585+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:50:12.128+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:50:12.143+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:50:12.143+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:50:12.154+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:50:12.154+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:50:12.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.592 seconds
+[2026-04-28T02:50:45.842+0000] {processor.py:186} INFO - Started process (PID=4992) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:50:45.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:50:45.845+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:50:45.844+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:50:47.534+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:50:47.549+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:50:47.548+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:50:47.559+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:50:47.558+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:50:47.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.736 seconds
+[2026-04-28T02:51:17.686+0000] {processor.py:186} INFO - Started process (PID=5070) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:51:17.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:51:17.688+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:51:17.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:51:19.289+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:51:19.306+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:51:19.305+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:51:19.318+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:51:19.318+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:51:19.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.656 seconds
+[2026-04-28T02:51:49.854+0000] {processor.py:186} INFO - Started process (PID=5145) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:51:49.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:51:49.856+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:51:49.856+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:51:51.446+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:51:51.463+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:51:51.462+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:51:51.474+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:51:51.474+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:51:51.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.643 seconds
+[2026-04-28T02:52:22.439+0000] {processor.py:186} INFO - Started process (PID=5229) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:52:22.440+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:52:22.441+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:52:22.441+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:52:24.127+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:52:24.144+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:52:24.143+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:52:24.157+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:52:24.156+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:52:24.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.740 seconds
+[2026-04-28T02:52:54.789+0000] {processor.py:186} INFO - Started process (PID=5313) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:52:54.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:52:54.791+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:52:54.791+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:52:56.386+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:52:56.403+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:52:56.403+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:52:56.416+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:52:56.415+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:52:56.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.648 seconds
+[2026-04-28T02:53:35.465+0000] {processor.py:186} INFO - Started process (PID=5389) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:53:35.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:53:35.467+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:53:35.467+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:53:36.884+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:53:36.898+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:53:36.898+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:53:36.909+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:53:36.909+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:53:36.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.464 seconds
+[2026-04-28T02:54:07.246+0000] {processor.py:186} INFO - Started process (PID=5467) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:54:07.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:54:07.248+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:54:07.248+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:54:08.856+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:54:08.874+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:54:08.873+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:54:08.888+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:54:08.887+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:54:08.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.666 seconds
+[2026-04-28T02:54:43.082+0000] {processor.py:186} INFO - Started process (PID=5545) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:54:43.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:54:43.085+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:54:43.085+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:54:44.590+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:54:44.606+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:54:44.606+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:54:44.750+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:54:44.750+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:54:44.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.702 seconds
+[2026-04-28T02:55:22.116+0000] {processor.py:186} INFO - Started process (PID=5624) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:55:22.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:55:22.119+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:55:22.119+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:55:23.738+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:55:23.753+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:55:23.752+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:55:23.765+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:55:23.765+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:55:23.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.670 seconds
+[2026-04-28T02:55:53.983+0000] {processor.py:186} INFO - Started process (PID=5707) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:55:53.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:55:53.985+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:55:53.985+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:55:55.361+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:55:55.383+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:55:55.381+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:55:55.645+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:55:55.645+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:55:55.661+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.684 seconds
+[2026-04-28T02:56:26.416+0000] {processor.py:186} INFO - Started process (PID=5792) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:56:26.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:56:26.419+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:56:26.418+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:56:28.193+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:56:28.212+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:56:28.211+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:56:28.225+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:56:28.224+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:56:28.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.833 seconds
+[2026-04-28T02:56:59.275+0000] {processor.py:186} INFO - Started process (PID=5875) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:56:59.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:56:59.277+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:56:59.277+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:57:01.023+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:57:01.040+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:57:01.040+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:57:01.054+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:57:01.054+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:57:01.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.803 seconds
+[2026-04-28T02:57:31.556+0000] {processor.py:186} INFO - Started process (PID=5953) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:57:31.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:57:31.558+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:57:31.558+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:57:31.685+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:57:31.701+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:57:31.701+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:57:31.713+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:57:31.713+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:57:31.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.677 seconds
+[2026-04-28T02:58:01.970+0000] {processor.py:186} INFO - Started process (PID=6031) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:58:01.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:58:01.972+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:58:01.972+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:58:03.676+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:58:03.692+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:58:03.691+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:58:03.704+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:58:03.704+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:58:03.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.756 seconds
+[2026-04-28T02:58:33.897+0000] {processor.py:186} INFO - Started process (PID=6115) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:58:33.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:58:33.899+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:58:33.899+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:58:35.531+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:58:35.548+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:58:35.547+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:58:35.559+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:58:35.559+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:58:35.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.684 seconds
+[2026-04-28T02:59:05.725+0000] {processor.py:186} INFO - Started process (PID=6198) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:59:05.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:59:05.727+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:59:05.726+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:59:07.298+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:59:07.316+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:59:07.315+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:59:07.328+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:59:07.328+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:59:07.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.638 seconds
+[2026-04-28T02:59:37.544+0000] {processor.py:186} INFO - Started process (PID=6276) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:59:37.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T02:59:37.546+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:59:37.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:59:39.193+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T02:59:39.209+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:59:39.209+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T02:59:39.221+0000] {logging_mixin.py:190} INFO - [2026-04-28T02:59:39.221+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T02:59:39.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.712 seconds
+[2026-04-28T03:00:09.544+0000] {processor.py:186} INFO - Started process (PID=6336) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:00:09.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T03:00:09.547+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:00:09.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:00:11.289+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:00:11.306+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:00:11.304+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T03:00:11.318+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:00:11.318+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T03:00:11.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.798 seconds
+[2026-04-28T03:00:41.550+0000] {processor.py:186} INFO - Started process (PID=6411) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:00:41.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T03:00:41.552+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:00:41.552+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:00:43.382+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:00:43.399+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:00:43.399+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T03:00:43.412+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:00:43.412+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T03:00:43.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.885 seconds
+[2026-04-28T03:01:13.530+0000] {processor.py:186} INFO - Started process (PID=6489) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:01:13.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T03:01:13.533+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:01:13.532+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:01:15.167+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:01:15.186+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:01:15.184+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T03:01:15.198+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:01:15.198+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T03:01:15.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.689 seconds
+[2026-04-28T03:01:45.364+0000] {processor.py:186} INFO - Started process (PID=6567) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:01:45.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T03:01:45.366+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:01:45.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:01:47.013+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T03:01:47.030+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:01:47.030+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T03:01:47.042+0000] {logging_mixin.py:190} INFO - [2026-04-28T03:01:47.042+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T03:01:47.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.700 seconds
+[2026-04-28T05:41:15.124+0000] {processor.py:186} INFO - Started process (PID=6601) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:41:15.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T05:41:15.127+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:41:15.126+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:41:18.356+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:41:18.372+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:41:18.372+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T05:41:18.387+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:41:18.386+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T05:41:18.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 3.288 seconds
+[2026-04-28T05:41:49.231+0000] {processor.py:186} INFO - Started process (PID=6680) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:41:49.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T05:41:49.233+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:41:49.233+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:41:51.001+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:41:51.023+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:41:51.023+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T05:41:51.036+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:41:51.036+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T05:41:51.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.831 seconds
+[2026-04-28T05:42:21.326+0000] {processor.py:186} INFO - Started process (PID=6758) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:42:21.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T05:42:21.329+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:21.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:42:23.801+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:42:23.825+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:23.824+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T05:42:23.840+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:23.839+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T05:42:23.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 2.550 seconds
+[2026-04-28T05:42:54.406+0000] {processor.py:186} INFO - Started process (PID=6848) to work on /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:42:54.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/imdb_sentiment.py for tasks to queue
+[2026-04-28T05:42:54.410+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:54.409+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:42:56.298+0000] {processor.py:925} INFO - DAG(s) 'imdb_sentiment' retrieved from /opt/airflow/dags/imdb_sentiment.py
+[2026-04-28T05:42:56.319+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:56.318+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T05:42:56.332+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:56.332+0000] {dag.py:4156} INFO - Setting next_dagrun for imdb_sentiment to None, run_after=None
+[2026-04-28T05:42:56.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/imdb_sentiment.py took 1.952 seconds
