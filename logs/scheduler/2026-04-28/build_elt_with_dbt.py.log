@@ -286,3 +286,19 @@
 [2026-04-28T05:42:45.943+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:45.943+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2026-04-28T05:42:45.965+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:42:45.965+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_dbt to 2026-04-26 08:00:00+00:00, run_after=2026-04-27 08:00:00+00:00
 [2026-04-28T05:42:45.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_elt_with_dbt.py took 0.096 seconds
+[2026-04-28T05:43:16.255+0000] {processor.py:186} INFO - Started process (PID=6906) to work on /opt/airflow/dags/build_elt_with_dbt.py
+[2026-04-28T05:43:16.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_elt_with_dbt.py for tasks to queue
+[2026-04-28T05:43:16.258+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:16.258+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_elt_with_dbt.py
+[2026-04-28T05:43:16.287+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:16.287+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-28T05:43:16.296+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_dbt' retrieved from /opt/airflow/dags/build_elt_with_dbt.py
+[2026-04-28T05:43:16.314+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:16.313+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T05:43:16.339+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:16.338+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_dbt to 2026-04-26 08:00:00+00:00, run_after=2026-04-27 08:00:00+00:00
+[2026-04-28T05:43:16.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_elt_with_dbt.py took 0.110 seconds
+[2026-04-28T05:43:46.831+0000] {processor.py:186} INFO - Started process (PID=6984) to work on /opt/airflow/dags/build_elt_with_dbt.py
+[2026-04-28T05:43:46.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/build_elt_with_dbt.py for tasks to queue
+[2026-04-28T05:43:46.834+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:46.834+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/build_elt_with_dbt.py
+[2026-04-28T05:43:46.863+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:46.863+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2026-04-28T05:43:46.871+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_dbt' retrieved from /opt/airflow/dags/build_elt_with_dbt.py
+[2026-04-28T05:43:46.887+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:46.887+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2026-04-28T05:43:46.911+0000] {logging_mixin.py:190} INFO - [2026-04-28T05:43:46.910+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_dbt to 2026-04-26 08:00:00+00:00, run_after=2026-04-27 08:00:00+00:00
+[2026-04-28T05:43:46.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/build_elt_with_dbt.py took 0.104 seconds
